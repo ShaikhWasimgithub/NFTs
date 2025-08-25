@@ -1,0 +1,142 @@
+.trending {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 0;
+  gap: 60px;
+  max-width: 1280px;
+  margin: 0 auto;
+  background: #2b2b2b;
+}
+
+.trending-headline {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  width: 100%;
+  max-width: 1046px;
+}
+
+.trending-title {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 120%;
+  text-transform: capitalize;
+  color: #fff;
+  margin: 0;
+}
+
+.trending-sub {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 160%;
+  text-transform: capitalize;
+  color: #fff;
+  margin: 0;
+}
+
+.collection-row {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  width: 100%;
+  max-width: 1050px;
+  overflow-x: auto;
+  padding-bottom: 10px;
+  scrollbar-width: thin;
+}
+
+.collection-card {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 330px;
+  height: 525px;
+  background: #2b2b2b;
+  border-radius: 20px;
+  flex: none;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.45);
+  transition: transform 0.3s ease;
+}
+
+.collection-card:hover {
+  transform: translateY(-6px);
+}
+
+.photos {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.primary {
+  width: 330px;
+  height: 330px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.secondary-row {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.secondary-row img {
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.count {
+  width: 100px;
+  height: 100px;
+  background: #a259ff;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-size: 22px;
+  color: #fff;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.info h5 {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 140%;
+  text-transform: capitalize;
+  color: #fff;
+  margin: 0;
+}
+
+.artist {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.artist img {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.artist span {
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  color: #fff;
+}

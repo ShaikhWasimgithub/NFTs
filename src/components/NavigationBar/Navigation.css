@@ -1,0 +1,101 @@
+:root {
+  --bg-dark: #2b2b2b;
+  --white: #ffffff;
+  --cta: #a259ff;
+}
+
+/* Navbar */
+.nav {
+  width: 100%;
+  background: var(--bg-dark);
+  color: var(--white);
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+}
+
+.nav-inner {
+  width: 100%;
+  max-width: 1280px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+  box-sizing: border-box;
+}
+
+/* Left Side */
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo {
+  height: 32px;
+}
+
+.brand {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Work Sans", sans-serif;
+  white-space: nowrap;
+}
+
+/* Right Side */
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+/* Menu */
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.menu-item {
+  color: var(--white);
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  transition: color 0.2s ease;
+}
+
+.menu-item:hover {
+  color: var(--cta);
+}
+
+/* CTA Button */
+.cta {
+  padding: 12px 28px;
+  background: var(--cta);
+  border-radius: 20px;
+  color: var(--white);
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  transition: background 0.2s ease, transform 0.1s ease;
+}
+
+.cta:hover {
+  background: #8d46e6;
+}
+
+.cta:active {
+  transform: translateY(1px);
+}
+
+/* User Icon inside button */
+.user-icon {
+  width: 20px;
+  height: 20px;
+}

@@ -1,0 +1,91 @@
+.how-it-works {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 195px;
+  background: #2b2b2b;
+  width: 100%;
+}
+
+.how-header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /*  text left aligned */
+  gap: 8px;
+  margin-bottom: 70px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.how-header h3 {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 120%;
+  text-transform: capitalize;
+  color: #fff;
+  margin: 0;
+}
+
+.how-header p {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 160%;
+  text-transform: capitalize;
+  color: #fff;
+  margin: 0;
+}
+
+.how-cards {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 40px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.how-card {
+  background: #3b3b3b;
+  border-radius: 20px;
+  padding: 50px 35px;
+  flex: 1;
+  min-width: 320px;
+  max-width: 360px;
+  height: 420px;
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 25px;
+  transition: transform 0.3s ease;
+}
+
+.how-card:hover {
+  transform: translateY(-8px);
+}
+
+.how-icon {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.how-card h4 {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  margin: 0;
+}
+
+.how-card p {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  margin: 0;
+  color: #d7d7d7;
+}
