@@ -2,7 +2,7 @@ import HeroSection from "../../components/HeroSection/HeroSection";
 import TrendingCollection from "../../components/TrendingCollection/TendingCollection";
 
 import TopCreators from "../../components/TopCreators/TopCreators";
-import BrowseCategories from "../../components/BrowseCategories/BrowseCategories.JSX";
+import BrowseCategories from "../../components/BrowseCategories/BrowseCategories.jsx";
 import DiscoverMoreNFTs from "../../components/DiscoverMoreNFTs/DiscoverMoreNFTs";
 import NFTHighlight from "../../components/NFTHighlight/NFTHighlight";
 import HowItWorks from "../../components/HowItWorks/HowItWorks";
