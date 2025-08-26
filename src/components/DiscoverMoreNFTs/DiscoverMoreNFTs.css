@@ -94,3 +94,63 @@
 .nft-stats span {
   font-weight: 600;
 }
+/* ========== RESPONSIVE QUERIES ========== */
+
+/* Tablet (≤1024px) */
+@media (max-width: 1024px) {
+  .discover-header {
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+  }
+
+  .nft-card {
+    width: 45%; /* 2 per row */
+  }
+
+  .discover-header h2 {
+    font-size: 24px;
+  }
+}
+
+/* Mobile (≤768px) */
+@media (max-width: 768px) {
+  .discover-section {
+    padding: 24px 16px;
+  }
+
+  .discover-header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .nft-card {
+    width: 100%;
+    max-width: 360px;
+    margin: 0 auto;
+  }
+
+  .view-all-btn {
+    font-size: 14px;
+    padding: 6px 12px;
+  }
+
+  .nft-image {
+    aspect-ratio: 16/12; /* thoda chhota */
+  }
+}
+
+/* Small Mobile (≤480px) */
+@media (max-width: 480px) {
+  .discover-header h2 {
+    font-size: 20px;
+  }
+
+  .nft-card {
+    max-width: 300px;
+  }
+
+  .nft-image {
+    aspect-ratio: 16/11;
+  }
+}

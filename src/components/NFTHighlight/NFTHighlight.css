@@ -13,3 +13,24 @@
   object-fit: cover;
   border-radius: 20px;
 }
+
+@media (max-width: 1024px) {
+  .highlight {
+    height: 500px;
+    margin: 40px 0;
+  }
+}
+
+/*  Mobile (max-width: 600px) */
+@media (max-width: 600px) {
+  .highlight {
+    height: 280px; /* smaller height for mobile */
+    margin: 30px 0;
+    border-radius: 12px;
+  }
+
+  .highlight-image {
+    border-radius: 12px;
+    object-fit: cover;
+  }
+}

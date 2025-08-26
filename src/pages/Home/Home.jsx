@@ -7,7 +7,7 @@ import DiscoverMoreNFTs from "../../components/DiscoverMoreNFTs/DiscoverMoreNFTs
 import NFTHighlight from "../../components/NFTHighlight/NFTHighlight";
 import HowItWorks from "../../components/HowItWorks/HowItWorks";
 import SubscribeWidget from "../../components/SubscribeWidget/SubscribeWidget";
-import Footer from "../../components/Footer/Footer";
+// import Footer from "../../components/Footer/Footer";
 import "../Home/Home.css";
 
 export default function Home() {
@@ -21,7 +21,7 @@ export default function Home() {
       <NFTHighlight />
       <HowItWorks />
       <SubscribeWidget />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

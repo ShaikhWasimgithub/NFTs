@@ -34,8 +34,9 @@
 
 // export default App
 import { Routes, Route } from "react-router-dom";
-import NavigationBar from "./components/NavigationBar/NavigationBar";
+import Layout from "./components/layout";
 import Home from "./pages/Home/Home";
+import SignUp from "./pages/SignUp";
 
 function Placeholder({ title }) {
   return (
@@ -47,9 +48,8 @@ function Placeholder({ title }) {
 
 export default function App() {
   return (
-    <>
-      <NavigationBar />
-      <Routes>
+    <Routes>
+      <Route element={<Layout />}>
         <Route path="/" element={<Home />} />
         <Route
           path="/marketplace"
@@ -60,11 +60,8 @@ export default function App() {
           path="/wallet"
           element={<Placeholder title="Connect a Wallet" />}
         />
-        <Route
-          path="/signup"
-          element={<Placeholder title="Create Account" />}
-        />
-      </Routes>
-    </>
+        <Route path="/signup" element={<SignUp />} />
+      </Route>
+    </Routes>
   );
 }
